@@ -7,7 +7,7 @@ var arr = [10,20,30,40,50,60]
 */
 
 //Code Here
-
+let firstItem = arr.slice(0,1);
 
 ////////// PROBLEM 2 //////////
 /*
@@ -15,7 +15,9 @@ var arr = [10,20,30,40,50,60]
 */
 
 //Code Here
+let lastItemRemoved = arr.pop();
 
+console.log(arr);
 ////////// PROBLEM 3 //////////
 
 // Do not edit the code below.
